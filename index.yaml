@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   bitbucket:
   - apiVersion: v1
-    created: "2021-08-23T16:23:31.938994842+02:00"
+    created: "2021-08-23T17:07:06.526888032+02:00"
     dependencies:
     - alias: elasticsearch
       condition: elasticsearch.enabled,global.elasticsearch.enabled
@@ -10,7 +10,7 @@ entries:
       repository: https://praqma-helm-repo.s3.amazonaws.com
       version: 0.1.1
     description: A Bitbucket Server Helm chart for Kubernetes
-    digest: 928300b83b468be7f45e4f574a7a8ac4cbaf6dff1cd2c2a510750beb45c0be82
+    digest: 28a7fc7d195ff4e022d2c3cfa001a00a8542a5e160b77cff215ec5a60a9ef232
     home: https://praqma.com/
     maintainers:
     - email: sami@praqma.com
@@ -21,4 +21,4 @@ entries:
     urls:
     - bitbucket-2.0.1.tgz
     version: 2.0.1
-generated: "2021-08-23T16:23:31.93556523+02:00"
+generated: "2021-08-23T17:07:06.5184213+02:00"
